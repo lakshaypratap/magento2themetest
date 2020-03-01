@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Checkout\CustomerData\AbstractItem">
+        <plugin name="showShortDescOnMinicart" type="Itegration\Demo\Plugin\Checkout\CustomerData\DefaultItemPlugin" disabled="false" sortOrder="10"/>
+    </type>
+    <type name="Magento\Checkout\Model\DefaultConfigProvider">
+        <plugin name="showShortDescOnCheckout" type="Itegration\Demo\Plugin\Checkout\Model\DefaultConfigProviderPlugin" />
+    </type>
+</config>
