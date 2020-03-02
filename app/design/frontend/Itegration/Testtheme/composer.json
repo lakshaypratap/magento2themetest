@@ -1,8 +1,8 @@
 {
-    "name": "Itegration/Testtheme",
-    "description": "Itegration Testtheme",
+    "name": "itegration/testtheme",
+    "description": "custom theme",
     "require": {
-        "php": "~7.2.0|~7.3.0",
+        "php": "~7.2.0|~7.3.0|",
         "magento/theme-frontend-luma": "100.0.*",
         "magento/framework": "100.0.*"
     },

@@ -1,0 +1,21 @@
+{
+	"name": "itegration/demo",
+	"description": "demo module for handling data",
+	"require": {
+		"php": "~7.2.0|~7.3.0|"
+	},
+	"type": "magento2-module",
+	"version": "0.1.0",
+	"license": [
+		"OSL-3.0",
+		"AFL-3.0"
+	],
+	"autoload": {
+		"files": [
+		  "registration.php"
+		],
+		"psr-4": {
+		  "itegration\\Demo\\": ""
+		}
+	}
+}
